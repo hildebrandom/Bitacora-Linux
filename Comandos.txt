@@ -1,0 +1,27 @@
+COMANDOS DE LINUX
+
+$ whoami     # ¿quién soy aquí? → ec2-user
+
+$ hostname   # ¿cómo se llama este servidor?
+
+$ pwd       # ¿en qué carpeta estoy?
+
+$ uname -a   # ¿qué sistema es? (Linux 👀)
+
+$ uptime    # ¿hace cuánto está encendido?
+
+$ df -h     # ¿cuánto disco tengo?
+
+$ free -h   # ¿cuánta memoria RAM?
+
+$ nproc     # ¿cuántos procesadores?clear
+
+COMANDOS BÁSICOS DE GIT
+
+git init = Inicializa Git en la carpeta donde estás trabajando.
+git status = Te muestra el estado actual del proyecto.
+git add . = Prepara todos los archivos modificados o nuevos para el próximo commit. El . significa "todos los archivos de esta carpeta y sus subcarpetas".
+git commit -m "Primer commit" = Guarda oficialmente los cambios preparados en el historial de Git.
+git branch -M main = Cambia el nombre de la rama actual a main.
+git remote -v = Muestra a qué repositorio remoto está conectado tu proyecto.
+git push -u origin main = Este es el comando que sube tus commits a GitHub
